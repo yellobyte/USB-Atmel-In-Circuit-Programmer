@@ -2,7 +2,7 @@
 
 This is another version of Thomas Fischl's [USBasp](https://www.fischl.de/usbasp/) device, an USB in-circuit programmer for Atmel AVR controllers.
 
-The idea to put the USBasp into a nice little enclosure from [Fischer Elektronik](https://www.fischerelektronik.de/web_fischer/de_DE/Geh%C3%A4use/M1.09/Designgeh%C3%A4use/PR/FR55_25/index.xhtml) (Enclosure Model: FR 55 25 80 ME) I got from [Ulrich Radig's](https://www.ulrichradig.de/home/index.php/avr/usb-avr-prog) website.
+The idea to put the USBasp into a nice little enclosure from [Fischer Elektronik](https://www.fischerelektronik.de) (Enclosure Model: FR 55 25 80 ME) I got from [Ulrich Radig's](https://www.ulrichradig.de/home/index.php/avr/usb-avr-prog) website.
 
 What I missed were some buttons to select "Slow Speed" and "Powering Target". Further I missed a small box header with 1.27mm pich for connections to small targets that can't fit a standard sized 10-pin/6-pin box header with 2.54mm pitch.
 
