@@ -1,6 +1,6 @@
 # USB Atmel in-circuit programmer for AVR controllers #
 
-This is another version of Thomas Fischl's USBasp device, an USB in-circuit programmer for Atmel AVR controllers.
+This is another version of Thomas Fischl's [USBasp](https://www.fischl.de/usbasp/) device, an USB in-circuit programmer for Atmel AVR controllers.
 
 The idea to put the USBasp into a nice little enclosure from [Fischer Elektronik](https://www.fischerelektronik.de/web_fischer/de_DE/Geh%C3%A4use/M1.09/Designgeh%C3%A4use/PR/FR55_25/index.xhtml) (Enclosure Model: FR 55 25 80 ME) I got from [Ulrich Radig's](https://www.ulrichradig.de/home/index.php/avr/usb-avr-prog) website.
 
