@@ -36,6 +36,8 @@ Button S1 is for selecting a slow target programming speed. This is very helpful
 
 Jumper JP1 is only (temporarily) shorted when the Atmega8 in the programmer must be programmed itself. It should be open by default.
 
+The little spring (shown in the lower left corner in the picture above) connects the USB socket shield properly with the aluminium enclosure. The enclosure itself (and therefore the USB cable shield) is only connected to GND of the circuitry via R7||C5 ! 
+
 The 2 subminiature push buttons (Manufacturer "NKK Switches", Model "BB16AH-FA") and the little box header with 1.27mm pitch (Manufacturer Samtec, Model "SHF-103-01-L-D-TH") are normally available from Mouser/Farnell/etc.
 
 ## PCB Files ##
