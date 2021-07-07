@@ -24,6 +24,8 @@ I integrated those little goodies and that's the result as shown below.
 
 The PCB is very similar to the one Ulrich Radig created for the same enclosure. I additionally included 2 subminiature push buttons and a small Samtec 6-pin box header with 1.27mm pitch.
 
+The software on the Atmega8 is original USBasp code from Thomas Fischl.
+
 Button S2 is for powering the target. The 5V power supply to the target is fused with a 0.2A self recovering fuse.
   
 ![github](https://github.com/yellobyte/USB-Atmel-In-Circuit-Programmer/raw/main/Doc/PCB-Top.jpg)
