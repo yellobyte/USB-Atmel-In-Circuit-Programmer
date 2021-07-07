@@ -6,7 +6,7 @@ The idea to put the USBasp into a nice little enclosure from [Fischer Elektronik
 
 What I really missed were some buttons to select "Slow Speed" and "Powering Target". Further I missed a small box header with 1.27mm pitch for connections to small targets that don't have enough space on their PCB to fit a standard sized 10-pin/6-pin box header with 2.54mm pitch.
 
-### Front Side with Switches and USB Socket ###
+### Front Side with Buttons and USB Socket ###
   
 ![github](https://github.com/yellobyte/USB-Atmel-In-Circuit-Programmer/raw/main/Doc/USBaspPic1.jpg)
   
