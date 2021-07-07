@@ -4,7 +4,7 @@ This is another version of Thomas Fischl's [USBasp](https://www.fischl.de/usbasp
 
 The idea to put the USBasp into a nice little enclosure from [Fischer Elektronik](https://www.fischerelektronik.de) (Enclosure Model: FR 55 25 80 ME) I got from [Ulrich Radig's](https://www.ulrichradig.de/home/index.php/avr/usb-avr-prog) website.
 
-What I missed were some buttons to select "Slow Speed" and "Powering Target". Further I missed a small box header with 1.27mm pitch for connections to small targets that don't have enough space on their PCB to fit a standard sized 10-pin/6-pin box header with 2.54mm pitch.
+What I really missed were some buttons to select "Slow Speed" and "Powering Target". Further I missed a small box header with 1.27mm pitch for connections to small targets that don't have enough space on their PCB to fit a standard sized 10-pin/6-pin box header with 2.54mm pitch.
 
 ### Front Side with Switches and USB Socket ###
   
@@ -30,7 +30,7 @@ The 2 subminiature push buttons (Manufacturer "NKK Switches", Model "BB16AH-FA")
 
 ## PCB Files ##
 
-You find the schematic, board pictures and the Gerber production files (rev 1.1) in folder [**PCB**](https://github.com/yellobyte/USB-Atmel-In-Circuit-Programmer/blob/main/PCB)
+You find the schematic, board pictures and the Gerber production files (rev 1.1) in folder [**PCB**](https://github.com/yellobyte/USB-Atmel-In-Circuit-Programmer/blob/main/PCB). The Gerber files will be accepted by almost all PCB manufactorers.
 
 The pictures in folder [**Doc**](https://github.com/yellobyte/USB-Atmel-In-Circuit-Programmer/blob/main/Doc) still show board revision 1.0. The Gerber files in rev 1.1 contain only minor improvements.
    
