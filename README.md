@@ -1,19 +1,22 @@
 # USB Atmel in-circuit programmer for AVR controllers #
 
-A light (or color) organ is an electronic device which converts an audio signal into rhythmic light effects. Invented in the 70's they are still popular in discotheques and party rooms though.
-Now that **LED Strips** became fairly cheap they can replace normal light bulbs used in the earlier years and make the color organ look more modern.
+This is another version of Thomas Fischl's USBasp device, an USB in-circuit programmer for Atmel AVR controllers.
 
-<img src="Doc/SequenceNormalMode.jpg">
+The idea to put the USBasp into a nice little enclosure from [Fischer Elektronik](https://www.fischerelektronik.de/web_fischer/de_DE/Geh%C3%A4use/M1.09/Designgeh%C3%A4use/PR/FR55_25/index.xhtml) (Enclosure Model: FR 55 25 80 ME) I got from [Ulrich Radig's](https://www.ulrichradig.de/home/index.php/avr/usb-avr-prog) website.
 
-The electronic circuit of a normal light organ separates the audio signal into several frequency bands and dimms the light bulbs or LEDs according to the average level of each band.
+What I missed were some Switches to select "Slow Speed" and "Powering Target". Further I missed a small 1.27mm socket connector for connections to small targets.
 
-For a decent visual impression at least 3 bands (channels) are needed: low frequencies (bass), middle frequencies and high frequencies (treble). For best visual results each channel should control a light source of different color, e.g bass = red, middle = yellow and treble = green.
+### Front Side with Switches and USB Socket ###
+
+![github](https://github.com/yellobyte/USB-Atmel-In-Circuit-Programmer/raw/main/Doc/Pic1.jpg)
+
+### Rear Side with Sockets and LEDs ###
+
+![github](https://github.com/yellobyte/USB-Atmel-In-Circuit-Programmer/raw/main/Doc/Pic4.jpg)
 
 ## Technical Infos ##
 
-We have 3 channels and therefore control 3 LED Strips. Their specified working voltage must be 12V DC. The maximum length of the LED Strips the device can handle is mainly determined by the current consumption (amperes per meter length) of each LED Strip and the maximum current rating of the external 12V power supply used.
 
-To give you a real world example: The external power supply I tested the device with was a MeanWell GS90A12 with a maximum current rating of 6.7A DC. Therefore I set the overcurrent limit to 2.2A per channel (the device itself doesn't need much). That limit allowed me to use LED Strips of 5m length with 60 LEDs (Type 3528 SMD in red, yellow or green) per meter. The overcurrent protection circuitry never got triggered.
 
 The light organ has 3 working modes: [Normal](https://github.com/yellobyte/LED-Strip-Light-Organ/blob/main/Doc/NormalMode.mp4), [Rhythm](https://github.com/yellobyte/LED-Strip-Light-Organ/blob/main/Doc/RhythmMode.mp4) and [Cyclic](https://github.com/yellobyte/LED-Strip-Light-Organ/blob/main/Doc/Cyclic.mp4), which can be selected by pressing the **mode selection** button. 
 
