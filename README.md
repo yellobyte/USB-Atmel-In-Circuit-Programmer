@@ -38,7 +38,10 @@ The 2 subminiature push buttons (Manufacturer "NKK Switches", Model "BB16AH-FA")
 
 ## PCB Files ##
 
-You find the schematic, board pictures and the Gerber production files (rev 1.1) in folder [**PCB**](https://github.com/yellobyte/USB-Atmel-In-Circuit-Programmer/blob/main/PCB). The Gerber files will be accepted by almost all PCB manufacturers.
+You find the schematic, board pictures and the Gerber production files (rev 1.1) in folder [**PCB**](https://github.com/yellobyte/USB-Atmel-In-Circuit-Programmer/blob/main/PCB). I zipped all necessary Gerber files into file "USBasp Gerber Files Rev1.1.zip".  
 
-The pictures in folder [**Doc**](https://github.com/yellobyte/USB-Atmel-In-Circuit-Programmer/blob/main/Doc) still show board revision 1.0. Revision 1.1 contains only minor improvements.
+All you need is to send the zip file to a decent PCB manufacturer, pay and wait for the PCB(s) to arrive at your doorstep.
+
+Remark:  
+The pictures in folder [**Doc**](https://github.com/yellobyte/USB-Atmel-In-Circuit-Programmer/blob/main/Doc) still show board revision 1.0.  Revision 1.1 is almost identical and contains only cosmetic changes.
    
