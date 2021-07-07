@@ -24,6 +24,8 @@ Therefore I integrated those little goodies and that's the result as shown below
 
 The PCB is very similar to the one Ulrich Radig created for the same enclosure. As mentioned before, I additionally added 2 subminiature push buttons and a small Samtec 6-pin box header with 1.27mm pitch.
 
+Wiring of both headers (6-pin & 10-pin) follow the standards for AVR in-system programming. If you are interested and want to dive into detail, have a look at paragraph "In-System Programming interface" [here](https://www.ladyada.net/learn/avr/programming.html).
+
 The software on the Atmega8 is original USBasp code from Thomas Fischl.
 
 Button S2 is for powering the target. The 5V power supply to the target is fused with a 0.2A self recovering fuse. If the target needs more current it must be powered seperately.
