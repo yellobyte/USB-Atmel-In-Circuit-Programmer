@@ -4,7 +4,7 @@ This is yet another version of Thomas Fischl's [USBasp](https://www.fischl.de/us
 
 The idea to put the USBasp into a nice little enclosure from [Fischer Elektronik](https://www.fischerelektronik.de) (Enclosure Model: FR 55 25 80 ME) I got from [Ulrich Radig's](https://www.ulrichradig.de/home/index.php/avr/usb-avr-prog) website.
 
-What I really missed were some buttons to quickly select/deselect the two features "Slow Speed" and "Powering Target" if needed. Further I missed a small 6-pin box header with 1.27mm pitch for connections to small targets that don't have enough space on their PCB to fit a big 10-pin/6-pin box header with 2.54mm pitch (20.3mm x 8.9mm resp. 15.22mm x 8.9mm in size).
+What I really missed were some buttons to quickly select/deselect the two very helpful features "Slow Speed" and "Powering Target" if needed. Further I missed a small 6-pin box header with 1.27mm pitch for connections to small targets that don't have enough space on their PCB to fit a big 10-pin/6-pin box header with 2.54mm pitch (20.3mm x 8.9mm resp. 15.22mm x 8.9mm in size).
 
 Therefore I integrated those little goodies and that's the result as shown below.
 
