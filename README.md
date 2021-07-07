@@ -4,37 +4,37 @@ This is another version of Thomas Fischl's [USBasp](https://www.fischl.de/usbasp
 
 The idea to put the USBasp into a nice little enclosure from [Fischer Elektronik](https://www.fischerelektronik.de) (Enclosure Model: FR 55 25 80 ME) I got from [Ulrich Radig's](https://www.ulrichradig.de/home/index.php/avr/usb-avr-prog) website.
 
-What I really missed were some buttons to select "Slow Speed" and "Powering Target". Further I missed a small box header with 1.27mm pitch for connections to small targets that don't have enough space on their PCB to fit a standard sized 10-pin/6-pin box header with 2.54mm pitch.
+What I really missed were some buttons to select "Slow Speed" and "Powering Target" if needed. Further I missed a small 6-pin box header with 1.27mm pitch for connections to small targets that don't have enough space on their PCB to fit a big 10-pin/6-pin box header with 2.54mm pitch (20.3mm x 8.9mm resp. 15.22mm x 8.9mm in size).
 
-I integrated those little goodies and that's the result as shown below.
+Therefore I integrated those little goodies and that's the result as shown below.
 
-### Front Side with Buttons and USB Socket ###
+### Front side with 2 Buttons and USB Socket: ###
   
 ![github](https://github.com/yellobyte/USB-Atmel-In-Circuit-Programmer/raw/main/Doc/USBaspPic1.jpg)
   
-### Rear Side with Sockets and LEDs ###
+### Rear side with box headers (1.27mm/2.54mm pitch) and LEDs: ###
   
 ![github](https://github.com/yellobyte/USB-Atmel-In-Circuit-Programmer/raw/main/Doc/USBaspPic4.jpg)
   
-### Flashing a target via small header ###
+### Flashing a target via small box header: ###
   
 ![github](https://github.com/yellobyte/USB-Atmel-In-Circuit-Programmer/raw/main/Doc/FlashingUsingSmallHeader.jpg)
   
-## Technical Infos ##
+## Some technical infos ##
 
-The PCB is very similar to the one Ulrich Radig created for the same enclosure. I additionally included 2 subminiature push buttons and a small Samtec 6-pin box header with 1.27mm pitch.
+The PCB is very similar to the one Ulrich Radig created for the same enclosure. As mentioned before, I additionally added 2 subminiature push buttons and a small Samtec 6-pin box header with 1.27mm pitch.
 
 The software on the Atmega8 is original USBasp code from Thomas Fischl.
 
-Button S2 is for powering the target. The 5V power supply to the target is fused with a 0.2A self recovering fuse.
+Button S2 is for powering the target. The 5V power supply to the target is fused with a 0.2A self recovering fuse. If the target needs more current it must be powered seperately.
   
 ![github](https://github.com/yellobyte/USB-Atmel-In-Circuit-Programmer/raw/main/Doc/PCB-Top.jpg)
   
-The other button S1 is for selecting a slow target programming speed. This is very helpful if one tries to flash new chips for the very first time. Some chips, when delivered, use an internal 1MHz clock generator by default and therefore won't answer when the normal USBasp programming speed is used, because it is simply too fast for them. That can be a real trap for AVR novices...
+Button S1 is for selecting a slow target programming speed. This is very helpful if one tries to flash new AVR controller chips for the very first time. Some AVR controllers, when delivered, use by default an internal clock generator running on a low frequency and therefore won't answer when addressed by an USBasp with normal programming speed, because it is simply too fast for them. That can be a real trap for AVR novices...
 
-Jumper JP1 is only used for programming the Atmega8 in the programmer itself. It should be open by default.
+Jumper JP1 is only (temporarily) shorted when the Atmega8 in the programmer must be programmed itself. It should be open by default.
 
-The 2 subminiature push buttons (Manufacturer "NKK Switches", Model "BB16AH-FA") and the Samtec header with 1.27mm pitch, Model "SHF-103-01-L-D-TH" I purchased from Mouser.
+The 2 subminiature push buttons (Manufacturer "NKK Switches", Model "BB16AH-FA") and the little box header with 1.27mm pitch (Manufacturer Samtec, Model "SHF-103-01-L-D-TH") are normally available from Mouser/Farnell/etc.
 
 ## PCB Files ##
 
