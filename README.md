@@ -16,6 +16,10 @@ I integrated those little goodies and that's the result as shown below.
   
 ![github](https://github.com/yellobyte/USB-Atmel-In-Circuit-Programmer/raw/main/Doc/USBaspPic4.jpg)
   
+### Flashing a target via small header ###
+  
+![github](https://github.com/yellobyte/USB-Atmel-In-Circuit-Programmer/raw/main/Doc/FlashingUsingSmallHeader.jpg)
+  
 ## Technical Infos ##
 
 The PCB is very similar to the one Ulrich Radig created for the same enclosure. I additionally included 2 subminiature push buttons and a small Samtec 6-pin box header with 1.27mm pitch.
